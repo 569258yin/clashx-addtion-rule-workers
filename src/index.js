@@ -7,7 +7,8 @@
  *
  * Learn more at https://developers.cloudflare.com/workers/
  */
-const yaml = require('js-yaml');
+// const yaml = require('js-yaml');
+import yaml from 'js-yaml';
 
 // 订阅地址，返回yaml格式的配置文件
 let passwd = '29b3cbba';
